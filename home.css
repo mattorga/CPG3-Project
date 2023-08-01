@@ -1,0 +1,17 @@
+@import url(template.css);
+
+.heading-container {
+    font-size: 15px;
+    font-family: "Nexa-H", sans-serif;
+    color: #015c2e;
+    margin-left: 20px;
+}
+
+.paragraph-container {
+    font-size: 15px;
+    font-family: "Nexa-EL", sans-serif;
+    color: black;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}

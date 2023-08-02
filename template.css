@@ -41,11 +41,13 @@ body {
     font-family: "Nexa-H", sans-serif;
 }
 
-/********** Navigation Bar ***********/
+/********* Navigation Bar and Content Section Container *********/
 .container {
     display: flex;
     margin-top: 0.2%;
 }
+
+/********** Navigation Bar ***********/
 
 .nav-container {
     height: 75.5vh;
@@ -53,6 +55,7 @@ body {
 
     overflow-y: auto;
     overflow-x: auto;
+
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -110,5 +113,18 @@ body {
     display: flex;
     flex-direction: column;
     overflow-y: auto;
-    outline: thin dashed green; /*Pang testing tong outline*/
+    outline: thin dashed green; /* Pang check */
+}
+
+.content-container::-webkit-scrollbar {
+    width: 4px;
+}
+
+.content-container::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #888;
+}
+
+.content-container::-webkit-scrollbar-thumb:horizontal {
+    height: 4px; 
 }

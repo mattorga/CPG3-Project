@@ -36,7 +36,7 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 .banner-content p{
-    font-size: 5vw;
+    font-size: 5vh;
     text-align: center;
     font-family: "Nexa-H", sans-serif;
 }

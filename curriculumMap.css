@@ -1,0 +1,54 @@
+@import url(template.css);
+
+.heading-container {
+    font-size: 1.5vh;
+    font-family: "Nexa-H", sans-serif;
+    color: #015c2e;
+    margin-left: 2vh;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th.header1 {
+    font-family: "Nexa-H", sans-serif;
+    color: #015c2e;
+    font-size: 4vh;
+    background-color: black;
+
+    padding: 1%;
+    border: 0.7vh solid white;
+}
+
+th.header2 {
+    font-family: "Nexa-H", sans-serif;
+    color: black;
+    font-size: 3vh;
+    background-color: #015c2e;
+    
+    border: 0.7vh solid white;
+}
+
+th.header3 {
+    font-family: "Nexa-EL", sans-serif;
+    color: white;
+    font-size: 3vh;
+    background-color: #015c2e;
+    width: 4vh;
+
+    border: 0.7vh solid white;
+}
+
+td{
+    font-family: "Nexa-EL", sans-serif;
+    color: black;
+    font-size: 3vh;
+    background-color: whitesmoke;
+    text-align: center;
+
+    border: 0.7vh solid white;
+}
+
+

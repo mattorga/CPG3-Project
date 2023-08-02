@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="peo.css">
+</head>
+
+<body>
+    <div class="banner-container">
+
+        <img class="banner-spacer" src="assets/banner.png" />
+        
+        <div class="banner-content">
+            <p>Program Educational Objectives</p>
+        </div>
+    </div>
+
+    <div class = "container">
+        <div class="nav-container">
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="elga.html">Expected Lasallian Graduate Attributes (ELGA)</a></li>
+              <li><a class = "active" href="peo.html">Program Educational Objectives (PEO)</a></li>
+              <li><a href="studentOutcomes.html">Student Outcomes</a></li>
+              <li><a href="curicculumMap.html">Curriculum Map</a></li>
+              <li><a href="raa.html">Recognitions, Accreditations, and Assessments</a></li>
+              <li><a href="degreePrograms.html">Degree Programs</a></li>
+			  <li><a href="egStat.html">Enrollment and Graduation Statistics</a></li>
+			  <li><a href="deptOS.html">Departmental Organizational Structure</a></li>
+			  <li><a href="facultyProfile.html">Faculty Profile</a></li>
+			  <li><a href="labFaci.html">Laboratory and Facilities</a></li>
+            </ul>
+			<div class="scroll-button" id="scrollUpButton" onclick="scrollNavContainer('up')">&uarr;</div>
+            <div class="scroll-button" id="scrollDownButton" onclick="scrollNavContainer('down')">&darr;</div>
+        </div>
+		<div class="content-container">
+            <div class="heading-container">
+                <h1>Program Educational Objectives (PEO)</h1>
+            </div>
+            <div class = "paragraph-container">
+			<div class="heading-container">
+				<h2>Electronics Engineering</h2>
+			</div>
+				<div class="peo" id="peo1">
+					<img src="assets/leadership.png" alt="Leadership PEO">
+					<button onclick="toggleDetails('peo1')">Show Details</button>
+					<h3>Program Educational Objectives-1 (PEO-1)</h3>
+					<h4>LEADERSHIP</h4>
+					<p>Graduates are Electronics Engineers occupying positions requiring highly technical expertise in specialized fields of electronics engineering imbibed with responsible leadership and ethical values.</p>
+				</div>
+				<div class="peo" id="peo2">
+					<img src="assets/life-long learning.png" alt="Lifelong Learning PEO">
+					<button onclick="toggleDetails('peo2')">Show Details</button>
+					<h3>Program Educational Objectives-2 (PEO-2)</h3>
+					<h4>LIFE-LONG LEARNING</h4>
+					<p>Graduates demonstrate life-long learning and continuous professional and career development while practicing their profession.</p>
+				</div>
+				<div class="peo" id="peo3">
+					<img src="assets/social-responsibility.png" alt="Social Responsibility PEO">
+					<button onclick="toggleDetails('peo3')">Show Details</button>
+					<h2>Program Educational Objectives-3 (PEO-3)</h2>
+					<h3>SOCIAL RESPONSIBILITY</h3>
+					<p>Graduates will demonstrate service for the community and society that helps uplift the lives of the people and will manifest concern for the environment.</p>
+				</div>
+			<div class="heading-container">	
+				<h2>Computer Engineering</h2>
+			</div>
+				<div class="peo" id="peo4">
+					<img src="assets/leadership.png" alt="Leadership PEO">
+					<button onclick="toggleDetails('peo4')">Show Details</button>
+					<h2>Program Educational Objectives-1 (PEO-1)</h2>
+					<h3>LEADERSHIP</h3>
+					<p>Graduates are Computer Engineers occupying positions of responsibility and leadership requiring highly technical expertise in specialized fields of computer engineering imbibed with ethical values.</p>
+				</div>
+				<div class="peo" id="peo5">
+					<img src="assets/life-long learning.png" alt="Lifelong Learning PEO">
+					<button onclick="toggleDetails('peo5')">Show Details</button>
+					<h2>Program Educational Objectives-2 (PEO-2)</h2>
+					<h3>LIFE-LONG LEARNING</h3>
+					<p>Graduates demonstrate life-long learning and continuous professional and career development while practicing their profession.</p>
+				</div>
+				<div class="peo" id="peo6">
+					<img src="assets/social-responsibility.png" alt="Social Responsibility PEO">
+					<button onclick="toggleDetails('peo6')">Show Details</button>
+					<h2>Program Educational Objectives-3 (PEO-3)</h2>
+					<h3>SOCIAL RESPONSIBILITY</h3>
+					<p>Graduates will manifest concern for the environment and demonstrate service for the community and society that helps uplift the lives of the people while pursuing entrepreneurial and professional careers.</p>
+				</div>
+			</div>    
+        </div>
+		<script src="peo.js"></script>
+    </div>
+</body>
+</html>

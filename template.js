@@ -29,3 +29,20 @@ function scrollNavContainer(direction) {
         navContainer.scrollTop += scrollAmount;
     }
 }
+
+function currMap(code, title, numbers){
+    document.write("<tr><td>" + code + "</td>");
+    document.write("<td>" + title + "</td>");
+
+    var numLetters = numbers.toString();
+
+    for (i = 0; i<12; i++){
+        if(numLetters[i] == "0"){
+            document.write("<td>" + "" + "</td>");
+        }
+        else{
+            document.write("<td>" + numLetters[i] + "</td>");
+        }
+    }
+    document.write("</tr>");
+}

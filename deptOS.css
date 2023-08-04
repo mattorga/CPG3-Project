@@ -1,0 +1,66 @@
+@import url(template.css);
+
+.nav-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #015c2e;
+}
+  
+.nav-container li a {
+    display: block;
+    color: whitesmoke;
+    padding: 0.8vh;
+    text-decoration: none;
+    font-family: "Nexa-EL", sans-serif;
+    font-size: 2.5vh;
+}
+
+.heading-container {
+    font-size: 15px;
+    font-family: "Nexa-H", sans-serif;
+    color: #015c2e;
+    margin-left: 20px;
+}
+
+.img {
+	width: 200px;
+	height: 200px;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.deptChair {
+	font-size: 14px;
+	font-family: "Nexa-H", sans-serif;
+	text-align: center;
+}
+
+.cpeCo {
+	font-size: 14px;
+	font-family: "Nexa-H", sans-serif;
+	text-align: center;
+}
+
+.viceChair {
+	font-size: 14px;
+	font-family: "Nexa-H", sans-serif;
+	text-align: center;
+}
+
+.deptSec {
+	font-size: 14px;
+	font-family: "Nexa-H", sans-serif;
+	text-align: center;
+	margin-left: 625px;
+}
+
+.fac {
+	font-size: 14px;
+	font-family: "Nexa-H", sans-serif;
+	text-align: center;	
+}

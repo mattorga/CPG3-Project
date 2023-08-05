@@ -1,0 +1,84 @@
+@import url(template.css);
+@import url(egStat.js);
+
+.nav-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #015c2e;
+}
+  
+.nav-container li a {
+    display: block;
+    color: whitesmoke;
+    padding: 8px;
+    text-decoration: none;
+    font-family: "Nexa-EL", sans-serif;
+    font-size: 2.5vh;
+}
+
+.heading-container {
+    font-size: 1.5vh;
+    font-family: "Nexa-H", sans-serif;
+    color: #015c2e;
+    margin-left: 2vh;
+}
+
+.paragraph-container {
+    font-size: 1.5vh;
+    font-family: "Nexa-EL", sans-serif;
+    color: black;
+    text-align: justify;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+	font-family: "Nexa-H", sans-serif;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#cpebtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#ecebtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#goBackBtn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  position: fixed;
+  top: 75%;
+  left: 50%;
+}
+
+#goBackBtn:hover {
+  background-color: #45a049;
+}
+
+#goBackBtn:focus {
+  outline: none;
+}

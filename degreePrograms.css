@@ -1,23 +1,5 @@
 @import url(template.css);
 
-.banner-container {
-	position: relative;
-	text-align: center;
-	color: white;
-}
-
-.banner-content {
-	font-family: "Nexa-H", sans-serif;
-	font-size: 4vh;
-	font-weight: 900;
-	color: white;
-	margin-left: 20px;	
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
 .nav-container ul {
     list-style-type: none;
     margin: 0;
@@ -36,47 +18,52 @@
 }
 
 .heading-container {
-	font-size: 3.5vh;
-	font-weight: 650;
+    font-size: 15px;
     font-family: "Nexa-H", sans-serif;
     color: #015c2e;
     margin-left: 20px;
 }
 
-.text-container {
-	font-size: 3vh;
-	font-weight: 650;
+.subheading-container {
+    font-size: 14px;
     font-family: "Nexa-H", sans-serif;
     color: #015c2e;
-    margin-left: 20px;
+    margin-left: 30px;	
 }
 
-.heading-text {
-	font-size: 4vh;
-	font-weight: 650;
-    font-family: "Nexa-H", sans-serif;
-    color: #015c2e;
-    margin-left: 20px;
+.flex-container {
+	display: flex;
+	justify-content: space-evenly;
 }
 
-.card-title {
-	font-size: 15px;
-	font-family: "Nexa-H", sans-serif;
-	color: #4CAF50;
+.img {
+	width: 450x;
+	height: 350px;
+}
+
+.info {
+    font-size: 15px;
+    font-family: "Nexa", sans-serif;
 	text-align: center;
+	margin-left: 35px;
 }
 
-.card-text {
-	font-size: 14px;
-	font-family: "Nexa-H", sans-serif;
-	text-align: center;
+.head {
+    font-family: "Nexa-H", sans-serif;
+	margin-left: 35px;	
 }
 
-.card-img-top {
-	width: 125px;
-	height: 250px;
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:#FFFF00;
+  height: 1px;
 }
 
-.card-body {
-	height: 50%;
+#line {
+    float: left;
+    width: 731px;
+    height: 10px;
 }

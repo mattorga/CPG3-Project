@@ -1,0 +1,49 @@
+@import url(template.css);
+
+.heading-container {
+    font-size: 15px;
+    font-family: "Nexa-H", sans-serif;
+    color: #015c2e;
+    margin-left: 20px;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: auto;
+}
+
+.card {
+    flex: 0 0 calc(33.33% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    margin: 10px 0;
+    color: #015c2e;
+    font-size: 20px;
+    font-family: "Nexa-H", sans-serif;
+}
+
+.card p {
+    color: black;
+    font-size: 18px;
+    font-family: "Nexa-EL", sans-serif;
+}
+
+.card a {
+    color: black;
+    font-size: 18px;
+    font-family: "Nexa-EL", sans-serif;
+}
